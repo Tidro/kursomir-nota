@@ -188,7 +188,7 @@ if (!Yii::app()->user->isGuest):
                 <a href="/blog?topic=65">Техподдержка</a> |
                 <a href="mailto:abuse@<?= appParams()["domain"]; ?>?subj=<?= urlencode($_SERVER["REQUEST_URI"]); ?>">Abuse</a> |
                 <a href="mailto:<?= appParams()["adminEmail"]; ?>">E-mail для справок</a> |
-                <a href="github.com/Tidro/xonr-nota" target="_blank" >GitHub</a>
+                <a href="//github.com/Tidro/xonr-nota" target="_blank" >GitHub</a>
             </div>
         </div>
     </div>
